@@ -83,10 +83,6 @@ instance_groups:
   jobs:
   - name: sonarqube
     properties:
-      sonar:
-        mysql:
-          host: ((buildstack_db_instance_ip))
-          password: ((sonar_mysql_password))
     release: devtools
   name: sonarqube
   networks:
@@ -128,7 +124,5 @@ variables:
 - name: nexus_admin_password
   type: password
 - name: nexus_deployer_password
-  type: password
-- name: sonar_mysql_password
   type: password
 
