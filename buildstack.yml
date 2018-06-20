@@ -37,6 +37,7 @@ instance_groups:
           master_password: ((jenkins_agent_password))
           master_username: agent
           mode: exclusive
+          type: build
     release: jenkins
   name: jenkins-slave
   networks:
