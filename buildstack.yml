@@ -97,9 +97,9 @@ releases:
   url: https://github.com/cloudfoundry-community/stackdriver-tools/releases/download/v2.0.1/stackdriver-tools-2.0.1.tgz
   version: 2.0.1
 - name: jenkins
-  sha1: c6f8033c67806724386a1f214f0035b4523648cc
-  url: https://storage.googleapis.com/dev-build-automate-release-tarballs/jenkins-boshrelease/jenkins-boshrelease-v0.0.53.tgz
-  version: 0.0.53
+  sha1: c9bdca40c679afae8f058b2eb6255a0ecc36254f
+  url: https://storage.googleapis.com/dev-build-automate-release-tarballs/jenkins-boshrelease/jenkins-boshrelease-v0.0.54.tgz
+  version: 0.0.54
 - name: nexus
   sha1: 1658e6f386ad8543c6440aa3b99afff7de47908e
   url: https://storage.googleapis.com/dev-build-automate-release-tarballs/nexus-boshrelease/nexus-boshrelease-v1.0.10.tgz
