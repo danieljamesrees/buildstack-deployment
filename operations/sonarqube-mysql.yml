@@ -13,7 +13,7 @@
 
 - type: replace
   path: /instance_groups/name=sonarqube/jobs/name=sonarqube/properties?/sonar/database/id
-  value: ((buildstack_db_instance_name))
+  value: ((buildstack_db_full_instance_name))
 
 - type: replace
   path: /instance_groups/name=sonarqube/jobs/name=sonarqube/properties?/sonar/database/creds
