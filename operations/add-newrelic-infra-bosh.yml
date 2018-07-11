@@ -1,8 +1,0 @@
-addons:
-- jobs:
-  - name: newrelic-infra-bosh
-    properties:
-      newrelic:
-        license_key: ((newrelic_license_key))
-    release: newrelic-infra-bosh
-  name: newrelic-infra-bosh
