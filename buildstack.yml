@@ -29,12 +29,12 @@ instance_groups:
   instances: 2
   jobs:
   - name: docker
-    release: docker
     properties:
       tcp_address: 0.0.0.0
-      tls_cacert: "((docker-tls.ca))"
-      tls_cert: "((docker-tls.certificate))"
-      tls_key: "((docker-tls.private_key))"  
+      tls_cacert: ((docker-tls.ca))
+      tls_cert: ((docker-tls.certificate))
+      tls_key: ((docker-tls.private_key))
+    release: docker
   - name: jenkins-slave
     properties:
       jenkins:
@@ -108,13 +108,13 @@ releases:
   url: https://storage.googleapis.com/dev-build-automate-release-tarballs/sonarqube-boshrelease/sonarqube-boshrelease-v0.0.40.tgz
   version: 0.0.40
 - name: docker
-  version: 32.0.0
-  url: https://github.com/cloudfoundry-incubator/docker-boshrelease/releases/download/v32.0.0/docker-32.0.0.tgz
   sha1: f192296243e68150ae66656fc9134a2b2a023184
+  url: https://github.com/cloudfoundry-incubator/docker-boshrelease/releases/download/v32.0.0/docker-32.0.0.tgz
+  version: 32.0.0
 stemcells:
 - alias: default
   os: ubuntu-trusty
-  version: "3586.25"
+  version: "3586.26"
 update:
   canaries: 1
   canary_watch_time: 15000-300000
@@ -122,17 +122,17 @@ update:
   update_watch_time: 15000-300000
 variables:
 - name: docker-ca
-  type: certificate
   options:
-    is_ca: true
     common_name: dockerCA
-- name: docker-tls
+    is_ca: true
   type: certificate
+- name: docker-tls
   options:
     ca: docker-ca
     common_name: docker
     extended_key_usage:
     - client_auth
+  type: certificate
 - name: jenkins_admin_password
   type: password
 - name: jenkins_agent_password
