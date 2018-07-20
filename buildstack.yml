@@ -105,7 +105,7 @@ releases:
   version: 1.0.10
 - name: sonarqube
   sha1: d56a3fe87aa1176728904de9db65c71bd413002f
-  url: https://storage.googleapis.com/dev-build-automate-release-tarballs/sonarqube-boshrelease/sonarqube-boshrelease-v0.0.40.tgz
+  url: https://storage.googleapis.com/buildtools-release-tarballs/sonarqube-boshrelease/sonarqube-boshrelease-v0.0.40.tgz
   version: 0.0.40
 - name: docker
   sha1: f192296243e68150ae66656fc9134a2b2a023184
