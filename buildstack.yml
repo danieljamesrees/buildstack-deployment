@@ -101,7 +101,7 @@ releases:
   version: 0.0.66
 - name: nexus
   sha1: 1658e6f386ad8543c6440aa3b99afff7de47908e
-  url: https://storage.googleapis.com/dev-build-automate-release-tarballs/nexus-boshrelease/nexus-boshrelease-v1.0.10.tgz
+  url: https://storage.googleapis.com/buildtools-release-tarballs/nexus-boshrelease/nexus-boshrelease-v1.0.10.tgz
   version: 1.0.10
 - name: sonarqube
   sha1: d56a3fe87aa1176728904de9db65c71bd413002f
