@@ -49,6 +49,7 @@ instance_groups:
   name: jenkins-slave
   networks:
   - name: default
+  persistent_disk_pool: 10GB
   stemcell: default
   vm_type: default
 - azs:
