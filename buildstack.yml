@@ -115,7 +115,7 @@ releases:
 stemcells:
 - alias: default
   os: ubuntu-trusty
-  version: "3586.26"
+  version: "3586.27"
 update:
   canaries: 1
   canary_watch_time: 15000-300000
