@@ -112,6 +112,10 @@ releases:
   sha1: f192296243e68150ae66656fc9134a2b2a023184
   url: https://github.com/cloudfoundry-incubator/docker-boshrelease/releases/download/v32.0.0/docker-32.0.0.tgz
   version: 32.0.0
+- name: haproxy
+  sha1: 1f9fca2c0143e6f385c13567b405e7b5087b4157
+  url: https://github.com/cloudfoundry-incubator/haproxy-boshrelease/releases/download/v9.2.0/haproxy-9.2.0.tgz
+  version: 9.2.0
 stemcells:
 - alias: default
   os: ubuntu-trusty
