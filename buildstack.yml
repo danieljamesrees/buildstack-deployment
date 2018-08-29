@@ -114,8 +114,8 @@ releases:
   version: 32.0.0
 - name: haproxy
   sha1: da39a3ee5e6b4b0d3255bfef95601890afd80709
-  url: https://github.com/cloudfoundry-incubator/haproxy-boshrelease/releases/download/v/haproxy-.tgz
-  version: null
+  url: https://github.com/cloudfoundry-incubator/haproxy-boshrelease/releases/download/v9.3.0/haproxy-9.3.0.tgz
+  version: 9.3.0
 stemcells:
 - alias: default
   os: ubuntu-trusty
